@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheey" href="reset.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Sprint01</title>
+</head>
+<body>
+    <div class="Encriptador">
+        <div class="container">
+            <div class="logo">
+                <img class="logoImg"src="imagenes/Logo.png" alt="logo-alura">
+                <h1 class="tittle">Encriptador de mensajes</h1>
+            </div>
+            <div class="left">
+                <textarea  id="text-input1" class="text-input" type="text" placeholder="Ingrese el texto aqui"></textarea> 
+            </div>
+            <div class="right">
+                <img id="imgGoku" class="imagen-goku" src="imagenes/A Dragon Ball Z Museum Powers Up!.jpg" alt="imagen-goku">
+                <h1 id="texImg" class="texto-imagen">Ningun mensaje fue encontrado</h1>
+                <textarea id="text2" class="texto2" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                <button id="copi" type="button" class="copiar" name="copiar" onclick="copiar()">Copiar</button>
+                <button id="peg" type="button" class="pegar" name="pegar" onclick="pegar()">Pegar</button>
+            </div>
+            <div class="left-button">
+                <p class="texto-encriptar">Solo letras minusculas y sin acento</p>
+                <button type="button" class="btn-encriptar" onclick = "encriptar()">Encriptar</button>
+                <button type="button" class="btn-desencriptar" onclick = "desencriptar()" >Desencriptar</button>
+            </div>
+    
+        </div>  
+    </div>
+   
+    
+</body>
+</html>
